@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avtomatizaciya-prodazhi3-склады-e",
+  "editForm": "i-i-s-avtomatizaciya-prodazhi3-склады-e",
+  "external": false,
+  "caption": "Склады",
+  "name": "IISAvtomatizaciya_prodazhi3СкладыL",
+  "className": "СкладыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-склады",
+      "modelProjection": "СкладыL"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import IISAvtomatizaciya_prodazhi3ОрганизEController from '../i-i-s-avtomatizaciya-prodazhi3-организ-e';
+
+var IISAvtomatizaciya_prodazhi3ОрганизENewController = IISAvtomatizaciya_prodazhi3ОрганизEController;
+export default IISAvtomatizaciya_prodazhi3ОрганизENewController;

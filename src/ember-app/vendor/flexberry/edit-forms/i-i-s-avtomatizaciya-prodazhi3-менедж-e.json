@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотруд",
+      "projection": "СотрудL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Менеджер",
+  "name": "IISAvtomatizaciya_prodazhi3МенеджE",
+  "className": "МенеджE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-менедж",
+      "modelProjection": "МенеджE"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+﻿{
+  "applicationCaption": "Avtomatizaciya_ prodazhi2",
+  "applicationTitle": "Avtomatizaciya_ prodazhi2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "avtomatizaciya-prodazhi2",
+      "caption": "Avtomatizaciya_Prodazhi2",
+      "title": "Avtomatizaciya_Prodazhi2",
+      "children": [
+        {
+          "link": null,
+          "menuName": "документы",
+          "caption": "Документы",
+          "title": "Документы",
+          "children": [
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-зак-покуп-l",
+              "menuName": null,
+              "caption": "Заказ покупателя",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "отчеты",
+          "caption": "Отчеты",
+          "title": "Отчеты",
+          "children": [
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-отч-о-прод-l",
+              "menuName": null,
+              "caption": "Отчет о продажах",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-отч-ост-н-скл-l",
+              "menuName": null,
+              "caption": "Отчет об остатках на складе",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "справочники",
+          "caption": "Справочники",
+          "title": "Справочники",
+          "children": [
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-ед-измер-l",
+              "menuName": null,
+              "caption": "Единицы измерения",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-долж-l",
+              "menuName": null,
+              "caption": "Должность",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-менедж-l",
+              "menuName": null,
+              "caption": "Менеджер",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-сотруд-l",
+              "menuName": null,
+              "caption": "Сотрудник",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-номенк-l",
+              "menuName": null,
+              "caption": "Номенклатура",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-организ-l",
+              "menuName": null,
+              "caption": "Организация",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-подраз-l",
+              "menuName": null,
+              "caption": "Подразделение",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-кол-в-рез-l",
+              "menuName": null,
+              "caption": "Количество в резерве",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-контр-l",
+              "menuName": null,
+              "caption": "Контрагент",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-avtomatizaciya-prodazhi3-склады-l",
+              "menuName": null,
+              "caption": "Склады",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

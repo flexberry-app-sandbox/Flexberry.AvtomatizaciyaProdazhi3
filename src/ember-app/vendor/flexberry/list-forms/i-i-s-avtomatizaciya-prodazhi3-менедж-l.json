@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avtomatizaciya-prodazhi3-менедж-e",
+  "editForm": "i-i-s-avtomatizaciya-prodazhi3-менедж-e",
+  "external": false,
+  "caption": "Менеджер",
+  "name": "IISAvtomatizaciya_prodazhi3МенеджL",
+  "className": "МенеджL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-менедж",
+      "modelProjection": "МенеджL"
+    }
+  ]
+}

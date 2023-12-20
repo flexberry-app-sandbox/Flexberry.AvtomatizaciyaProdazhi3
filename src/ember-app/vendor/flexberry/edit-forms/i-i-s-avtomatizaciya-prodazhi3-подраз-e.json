@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Подразделение",
+  "name": "IISAvtomatizaciya_prodazhi3ПодразE",
+  "className": "ПодразE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-подраз",
+      "modelProjection": "ПодразE"
+    }
+  ]
+}

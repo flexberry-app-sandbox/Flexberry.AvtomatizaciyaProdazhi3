@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avtomatizaciya-prodazhi3-сотруд-e",
+  "editForm": "i-i-s-avtomatizaciya-prodazhi3-сотруд-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISAvtomatizaciya_prodazhi3СотрудL",
+  "className": "СотрудL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-сотруд",
+      "modelProjection": "СотрудL"
+    }
+  ]
+}

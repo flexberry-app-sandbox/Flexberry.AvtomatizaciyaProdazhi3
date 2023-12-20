@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avtomatizaciya-prodazhi3-ед-измер-e",
+  "editForm": "i-i-s-avtomatizaciya-prodazhi3-ед-измер-e",
+  "external": false,
+  "caption": "Единицы измерения",
+  "name": "IISAvtomatizaciya_prodazhi3ЕдИзмерL",
+  "className": "ЕдИзмерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-ед-измер",
+      "modelProjection": "ЕдИзмерL"
+    }
+  ]
+}

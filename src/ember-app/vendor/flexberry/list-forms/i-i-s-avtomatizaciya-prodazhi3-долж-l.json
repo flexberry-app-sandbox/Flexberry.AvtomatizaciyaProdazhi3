@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avtomatizaciya-prodazhi3-долж-e",
+  "editForm": "i-i-s-avtomatizaciya-prodazhi3-долж-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISAvtomatizaciya_prodazhi3ДолжL",
+  "className": "ДолжL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-долж",
+      "modelProjection": "ДолжL"
+    }
+  ]
+}

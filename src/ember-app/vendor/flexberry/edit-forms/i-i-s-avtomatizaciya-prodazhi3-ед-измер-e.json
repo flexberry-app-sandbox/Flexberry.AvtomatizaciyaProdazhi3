@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Единицы измерения",
+  "name": "IISAvtomatizaciya_prodazhi3ЕдИзмерE",
+  "className": "ЕдИзмерE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-ед-измер",
+      "modelProjection": "ЕдИзмерE"
+    }
+  ]
+}

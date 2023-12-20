@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Долж",
+      "projection": "ДолжL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISAvtomatizaciya_prodazhi3СотрудE",
+  "className": "СотрудE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-сотруд",
+      "modelProjection": "СотрудE"
+    }
+  ]
+}

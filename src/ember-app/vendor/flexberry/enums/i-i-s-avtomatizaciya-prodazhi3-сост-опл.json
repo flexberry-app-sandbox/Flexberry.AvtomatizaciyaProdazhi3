@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Avtomatizaciya_prodazhi3",
+  "className": "СостОпл",
+  "enumObjects": {
+    "ЧастичноОплачен": "",
+    "НеОплачен": "",
+    "Оплачен": ""
+  }
+}

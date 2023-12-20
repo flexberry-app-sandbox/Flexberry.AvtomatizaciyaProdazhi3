@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Номенк",
+      "projection": "НоменкL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Количество в резерве",
+  "name": "IISAvtomatizaciya_prodazhi3КолВРезE",
+  "className": "КолВРезE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avtomatizaciya-prodazhi3-кол-в-рез",
+      "modelProjection": "КолВРезE"
+    }
+  ]
+}
