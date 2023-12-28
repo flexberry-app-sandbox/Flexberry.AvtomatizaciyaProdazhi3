@@ -5,17 +5,17 @@
 
 CREATE TABLE ЗакПокуп (
  primaryKey UUID NOT NULL,
- ДатаОкончания TIMESTAMP(3) NULL,
  ДатаНачала TIMESTAMP(3) NULL,
- СостОтгруз VARCHAR(12) NULL,
+ ДатаОкончания TIMESTAMP(3) NULL,
  СостОплат VARCHAR(15) NULL,
- Сумма INT NULL,
+ СостОтгруз VARCHAR(12) NULL,
  СумВклНДС BOOLEAN NULL,
- Организ UUID NOT NULL,
+ Сумма INT NULL,
  Контр UUID NOT NULL,
+ Менедж UUID NOT NULL,
+ Организ UUID NOT NULL,
  Подраз UUID NOT NULL,
  Склады UUID NOT NULL,
- Менедж UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -28,11 +28,11 @@ CREATE TABLE Сотруд (
 
 CREATE TABLE ТЧТовИУс (
  primaryKey UUID NOT NULL,
+ Количестов INT NULL,
+ КолКЗаказПоста INT NULL,
  Сумма INT NULL,
  СуммаНДС INT NULL,
- Количестов INT NULL,
  Цена INT NULL,
- КолКЗаказПоста INT NULL,
  Номенк UUID NOT NULL,
  ОтчОПрод_m0 UUID NULL,
  ОтчОПрод_m1 UUID NULL,
@@ -93,8 +93,8 @@ CREATE TABLE ОтчОстНСкл (
  primaryKey UUID NOT NULL,
  Дата TIMESTAMP(3) NULL,
  Колл INT NULL,
- Номенк UUID NOT NULL,
  КолВРез UUID NOT NULL,
+ Номенк UUID NOT NULL,
  Склады UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
@@ -225,20 +225,20 @@ CREATE TABLE ApplicationLog (
 
 
 
- ALTER TABLE ЗакПокуп ADD CONSTRAINT FK87cd3acfec46947586cfee5f2615923d52e7d32c FOREIGN KEY (Организ) REFERENCES Организ; 
-CREATE INDEX Index87cd3acfec46947586cfee5f2615923d52e7d32c on ЗакПокуп (Организ); 
-
  ALTER TABLE ЗакПокуп ADD CONSTRAINT FK819815d1a6c9d3437294f09a8cab053d67f4a960 FOREIGN KEY (Контр) REFERENCES Контр; 
 CREATE INDEX Index819815d1a6c9d3437294f09a8cab053d67f4a960 on ЗакПокуп (Контр); 
+
+ ALTER TABLE ЗакПокуп ADD CONSTRAINT FKad6f1eed290e81d96d0672c831b145e24f411187 FOREIGN KEY (Менедж) REFERENCES Менедж; 
+CREATE INDEX Indexad6f1eed290e81d96d0672c831b145e24f411187 on ЗакПокуп (Менедж); 
+
+ ALTER TABLE ЗакПокуп ADD CONSTRAINT FK87cd3acfec46947586cfee5f2615923d52e7d32c FOREIGN KEY (Организ) REFERENCES Организ; 
+CREATE INDEX Index87cd3acfec46947586cfee5f2615923d52e7d32c on ЗакПокуп (Организ); 
 
  ALTER TABLE ЗакПокуп ADD CONSTRAINT FK94634f406e37b1ef87226aa4af6c6057c339cb3c FOREIGN KEY (Подраз) REFERENCES Подраз; 
 CREATE INDEX Index94634f406e37b1ef87226aa4af6c6057c339cb3c on ЗакПокуп (Подраз); 
 
  ALTER TABLE ЗакПокуп ADD CONSTRAINT FKc89734186387bd601770d36b5260c589ae5c2007 FOREIGN KEY (Склады) REFERENCES Склады; 
 CREATE INDEX Indexc89734186387bd601770d36b5260c589ae5c2007 on ЗакПокуп (Склады); 
-
- ALTER TABLE ЗакПокуп ADD CONSTRAINT FKad6f1eed290e81d96d0672c831b145e24f411187 FOREIGN KEY (Менедж) REFERENCES Менедж; 
-CREATE INDEX Indexad6f1eed290e81d96d0672c831b145e24f411187 on ЗакПокуп (Менедж); 
 
  ALTER TABLE Сотруд ADD CONSTRAINT FKc84315195c311d44226ef1bc0b02ee3362afea00 FOREIGN KEY (Долж) REFERENCES Долж; 
 CREATE INDEX Indexc84315195c311d44226ef1bc0b02ee3362afea00 on Сотруд (Долж); 
@@ -261,11 +261,11 @@ CREATE INDEX Index78c1cb77d9eb7fe08fac1102e2689958533216cc on КолВРез (Н
  ALTER TABLE Менедж ADD CONSTRAINT FK8c86980cf36e5322b1a6a243f4b8c2ac6be7344d FOREIGN KEY (Сотруд) REFERENCES Сотруд; 
 CREATE INDEX Index8c86980cf36e5322b1a6a243f4b8c2ac6be7344d on Менедж (Сотруд); 
 
- ALTER TABLE ОтчОстНСкл ADD CONSTRAINT FKcb53e4ca252128120ad258efb5f90458a3282a52 FOREIGN KEY (Номенк) REFERENCES Номенк; 
-CREATE INDEX Indexcb53e4ca252128120ad258efb5f90458a3282a52 on ОтчОстНСкл (Номенк); 
-
  ALTER TABLE ОтчОстНСкл ADD CONSTRAINT FK0147734d0c3c7254a20326e1675c9321a17670bb FOREIGN KEY (КолВРез) REFERENCES КолВРез; 
 CREATE INDEX Index0147734d0c3c7254a20326e1675c9321a17670bb on ОтчОстНСкл (КолВРез); 
+
+ ALTER TABLE ОтчОстНСкл ADD CONSTRAINT FKcb53e4ca252128120ad258efb5f90458a3282a52 FOREIGN KEY (Номенк) REFERENCES Номенк; 
+CREATE INDEX Indexcb53e4ca252128120ad258efb5f90458a3282a52 on ОтчОстНСкл (Номенк); 
 
  ALTER TABLE ОтчОстНСкл ADD CONSTRAINT FK391b735012641365796905e485b2783b3a056caf FOREIGN KEY (Склады) REFERENCES Склады; 
 CREATE INDEX Index391b735012641365796905e485b2783b3a056caf on ОтчОстНСкл (Склады); 

@@ -32,7 +32,7 @@ export default Controller.extend({
               link: 'i-i-s-avtomatizaciya-prodazhi3-зак-покуп-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.документы.i-i-s-avtomatizaciya-prodazhi3-зак-покуп-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.документы.i-i-s-avtomatizaciya-prodazhi3-зак-покуп-l.title'),
-              icon: 'suitcase',
+              icon: 'address card',
               children: null
             }]
           }, {
@@ -43,12 +43,13 @@ export default Controller.extend({
               link: 'i-i-s-avtomatizaciya-prodazhi3-отч-о-прод-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.отчеты.i-i-s-avtomatizaciya-prodazhi3-отч-о-прод-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.отчеты.i-i-s-avtomatizaciya-prodazhi3-отч-о-прод-l.title'),
-              icon: 'book',
+              icon: 'table',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-отч-ост-н-скл-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.отчеты.i-i-s-avtomatizaciya-prodazhi3-отч-ост-н-скл-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.отчеты.i-i-s-avtomatizaciya-prodazhi3-отч-ост-н-скл-l.title'),
+              icon: 'folder open',
               children: null
             }]
           }, {
@@ -59,61 +60,60 @@ export default Controller.extend({
               link: 'i-i-s-avtomatizaciya-prodazhi3-ед-измер-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-ед-измер-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-ед-измер-l.title'),
-              icon: 'suitcase',
+              icon: 'archive',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-долж-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-долж-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-долж-l.title'),
-              icon: 'book',
+              icon: 'folder',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-менедж-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-менедж-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-менедж-l.title'),
-              icon: 'folder open',
+              icon: 'chart line',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-сотруд-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-сотруд-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-сотруд-l.title'),
-              icon: 'list',
+              icon: 'edit',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-номенк-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-номенк-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-номенк-l.title'),
-              icon: 'tasks',
+              icon: 'list',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-организ-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-организ-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-организ-l.title'),
-              icon: 'file',
+              icon: 'calendar',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-подраз-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-подраз-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-подраз-l.title'),
-              icon: 'tasks',
+              icon: 'paperclip',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-кол-в-рез-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-кол-в-рез-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-кол-в-рез-l.title'),
-              icon: 'phone',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-контр-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-контр-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-контр-l.title'),
-              icon: 'list',
+              icon: 'file',
               children: null
             }, {
               link: 'i-i-s-avtomatizaciya-prodazhi3-склады-l',
               caption: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-склады-l.caption'),
               title: i18n.t('forms.application.sitemap.avtomatizaciya-prodazhi2.справочники.i-i-s-avtomatizaciya-prodazhi3-склады-l.title'),
-              icon: 'building',
+              icon: 'phone',
               children: null
             }]
           }]
